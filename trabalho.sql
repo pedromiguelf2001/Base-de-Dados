@@ -110,8 +110,7 @@ SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
-drop table Itens_de_Venda;
-drop table Venda;
+
 insert into Funcionario
 		(idFuncionario,nome,data_nas)
         values
@@ -234,8 +233,11 @@ insert into Venda
 	('38', '3.89', '3.89', '1', '20',  '3' , '2021-02-27' ),
 	('39', '9.91' ,'9.91' , '1', '1',  '2' , '2021-05-11' ),
 	('40', '17.58' ,'23.49', '1', '17',  '2' , '2021-01-13' );
-    
-    
+insert into Venda
+	(idVenda,preco_receita,preco_tabelado,Funcionario_idFuncionario,Cliente_idCliente,balcao,data_venda)
+    values
+    ('41','0.00','0.00','1','12','1',curdate());
+
 insert into Itens_de_venda
 	(idItens_de_venda,quantidade,Venda_idVenda,Medicamento_idMedicamento)
 	values
@@ -299,17 +301,52 @@ insert into Itens_de_venda
 	('58','2','3','5'),
 	('59','3','17','30'),
 	('60','3','16','12');
-    
-    
-create procedure `compras_cliente`(in idCliente int)
+insert into Itens_de_venda
+	(idItens_de_venda,quantidade,Venda_idVenda,Medicamento_idMedicamento)
+	values
+    ('61','10','41','3');
+select * from Cliente;
 
-	begin
-		select * from Itens_de_venda
-        where Venda.Cliente_idCLiente = idCliente ;
-	end
+select * from venda;
+
+
+#TABELA DE COMPRAS DE UM CLIENTE, NESTE CASO O CLIENTE Nº 12
+select itens_de_venda.quantidade as Quantidade, medicamento.nome as Nome, medicamento.preco*quantidade as Preço,venda.data_venda as Data 
+	from medicamento,itens_de_venda,venda
+    where medicamento.idMedicamento = itens_de_venda.Medicamento_idMedicamento and venda.Cliente_idCliente = 12 and  itens_de_venda.Venda_idVenda = venda.idVenda;
     
+#TABELA DE VENDAS DE UM DETERMINADO FARMACEUTICO
+select itens_de_venda.quantidade as Quantidade, medicamento.nome as Nome,medicamento.preco*quantidade as Preço,venda.data_venda as Data
+	from medicamento,itens_de_venda,venda
+    where medicamento.idMedicamento = itens_de_venda.Medicamento_idMedicamento and venda.Funcionario_idFuncionario = 1 and  itens_de_venda.Venda_idVenda = venda.idVenda 
+    group by venda.idVenda;
+    
+#TABELA DE MEDICAMENTOS
+select * from medicamento;
+
+#TABELA DE VENDAS NUM DIA
+select itens_de_venda.quantidade as Quantidade, medicamento.nome as Nome,medicamento.preco*quantidade as Preço,venda.data_venda as Data, cliente.nif as NIF
+	from medicamento,itens_de_venda,venda,cliente
+    where medicamento.idMedicamento = itens_de_venda.Medicamento_idMedicamento and venda.data_venda = '2021-11-05' and  itens_de_venda.Venda_idVenda = venda.idVenda
+    group by idVenda;
+
+#TABELA DE CLIENTES DE UM DETERMINADA LOCALIDADE
+select cliente.nome AS Nome , cliente.nif as NIF
+	from cliente
+    where cliente.localidade = 'Edral';
+
+#TABELA DE RANKING DE LUCRO DE VENDAS DOS FUNCIONARIOS
+select funcionario.nome as Nome, sum(medicamento.preco*itens_de_venda.quantidade)  as Total
+	from funcionario,itens_de_venda,medicamento,venda 
+    where medicamento.idMedicamento = itens_de_venda.Medicamento_idMedicamento 
+    and itens_de_venda.Venda_idVenda = venda.idVenda 
+    and funcionario.idFuncionario = venda.Funcionario_idFuncionario
+    
+    group by funcionario.nome;
     
 
+    
+    
     
 
     
