@@ -129,7 +129,7 @@ insert into Cliente
 	('4','Pedro Miguel', '250224712', 'Edral','5320-032'),
 	('5','Bruno Jardim', '237010968', 'Negreiros','4775-190'),
 	('6','Maria Martins', '238677737', 'Edral','5320-032'), 
-	('7','Eduardo Teniz', '530224767', 'Edral','5320-032'), 
+	('7','Eduardo Freitas', '530224767', 'Edral','5320-032'), 
 	('8','Rosa Silva', '667890223', 'Edral','5320-032'), 
 	('9','Lucélia Martins', '453218556', 'Edral','5320-032'), 
 	('10','Catarina Quintas', '113687905', 'Edral','5320-032'), 
