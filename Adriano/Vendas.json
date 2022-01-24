@@ -1,0 +1,1038 @@
+[{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea6"
+  },
+  "idVenda": 1,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 1,
+    "nome": "João António"
+  },
+  "custo": 3.5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea6"
+  },
+  "idVenda": 1,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 1,
+    "nome": "João António"
+  },
+  "custo": 5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea6"
+  },
+  "idVenda": 1,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Alprazolam Labesfal"
+    }
+  },
+  "Cliente": {
+    "idCliente": 1,
+    "nome": "João António"
+  },
+  "custo": 1.9
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea7"
+  },
+  "idVenda": 2,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 21,
+    "nome": "Felício Miguel"
+  },
+  "custo": 5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea7"
+  },
+  "idVenda": 2,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Xanax"
+    }
+  },
+  "Cliente": {
+    "idCliente": 21,
+    "nome": "Felício Miguel"
+  },
+  "custo": 7.98
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea8"
+  },
+  "idVenda": 3,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Alprazolam Labesfal"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 3.8
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea8"
+  },
+  "idVenda": 3,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 5.46
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea8"
+  },
+  "idVenda": 3,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Eutirox"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 9.99
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea8"
+  },
+  "idVenda": 3,
+  "data_venda": "2021-11-05",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "AAS"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 5.98
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ea9"
+  },
+  "idVenda": 4,
+  "data_venda": "2021-10-20",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Eutirox"
+    }
+  },
+  "Cliente": {
+    "idCliente": 2,
+    "nome": "José Sócrates"
+  },
+  "custo": 6.66
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eaa"
+  },
+  "idVenda": 5,
+  "data_venda": "2021-10-21",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "AAS"
+    }
+  },
+  "Cliente": {
+    "idCliente": 20,
+    "nome": "Fátima Antunes"
+  },
+  "custo": 8.97
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eaa"
+  },
+  "idVenda": 5,
+  "data_venda": "2021-10-21",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 20,
+    "nome": "Fátima Antunes"
+  },
+  "custo": 9.58
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eab"
+  },
+  "idVenda": 6,
+  "data_venda": "2021-01-20",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Voltaren Emulgelex"
+    }
+  },
+  "Cliente": {
+    "idCliente": 11,
+    "nome": "João Carlos"
+  },
+  "custo": 9.99
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eab"
+  },
+  "idVenda": 6,
+  "data_venda": "2021-01-20",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 11,
+    "nome": "João Carlos"
+  },
+  "custo": 5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eac"
+  },
+  "idVenda": 7,
+  "data_venda": "2021-10-20",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Actifed"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 2.23
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eac"
+  },
+  "idVenda": 7,
+  "data_venda": "2021-10-20",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Alprazolam Labesfal"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 1.9
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ead"
+  },
+  "idVenda": 8,
+  "data_venda": "2021-02-01",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "BAQSIMI"
+    }
+  },
+  "Cliente": {
+    "idCliente": 2,
+    "nome": "José Sócrates"
+  },
+  "custo": 201.14
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eae"
+  },
+  "idVenda": 9,
+  "data_venda": "2021-12-01",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Advantan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 11,
+    "nome": "João Carlos"
+  },
+  "custo": 15.48
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eae"
+  },
+  "idVenda": 9,
+  "data_venda": "2021-12-01",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Alprazolam Labesfal"
+    }
+  },
+  "Cliente": {
+    "idCliente": 11,
+    "nome": "João Carlos"
+  },
+  "custo": 1.9
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eaf"
+  },
+  "idVenda": 10,
+  "data_venda": "2021-10-20",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Zovirax"
+    }
+  },
+  "Cliente": {
+    "idCliente": 9,
+    "nome": "Lucélia Martins"
+  },
+  "custo": 17.02
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb0"
+  },
+  "idVenda": 11,
+  "data_venda": "2021-11-03",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Strepsils"
+    }
+  },
+  "Cliente": {
+    "idCliente": 19,
+    "nome": "Ana Marques"
+  },
+  "custo": 4.53
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb1"
+  },
+  "idVenda": 12,
+  "data_venda": "2021-03-03",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 25,
+    "nome": "José Filipe"
+  },
+  "custo": 2.85
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb1"
+  },
+  "idVenda": 12,
+  "data_venda": "2021-03-03",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Aerius"
+    }
+  },
+  "Cliente": {
+    "idCliente": 25,
+    "nome": "José Filipe"
+  },
+  "custo": 7.04
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb1"
+  },
+  "idVenda": 12,
+  "data_venda": "2021-03-03",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Eliquis"
+    }
+  },
+  "Cliente": {
+    "idCliente": 25,
+    "nome": "José Filipe"
+  },
+  "custo": 73.77
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb2"
+  },
+  "idVenda": 13,
+  "data_venda": "2020-11-03",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 15,
+    "nome": "Manuel Marques"
+  },
+  "custo": 10.92
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb3"
+  },
+  "idVenda": 14,
+  "data_venda": "2021-02-03",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 11,
+    "nome": "João Carlos"
+  },
+  "custo": 108.72
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb4"
+  },
+  "idVenda": 15,
+  "data_venda": "2021-11-03",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Tropicil Top"
+    }
+  },
+  "Cliente": {
+    "idCliente": 21,
+    "nome": "Felício Miguel"
+  },
+  "custo": 5.83
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb5"
+  },
+  "idVenda": 16,
+  "data_venda": "2021-11-03",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Niquitin Menta"
+    }
+  },
+  "Cliente": {
+    "idCliente": 22,
+    "nome": "Carlos Costa"
+  },
+  "custo": 14.61
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb5"
+  },
+  "idVenda": 16,
+  "data_venda": "2021-11-03",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 22,
+    "nome": "Carlos Costa"
+  },
+  "custo": 8.55
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb6"
+  },
+  "idVenda": 17,
+  "data_venda": "2021-07-04",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 24,
+    "nome": "Filipe Antunes"
+  },
+  "custo": 9.58
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb6"
+  },
+  "idVenda": 17,
+  "data_venda": "2021-07-04",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Eutirox"
+    }
+  },
+  "Cliente": {
+    "idCliente": 24,
+    "nome": "Filipe Antunes"
+  },
+  "custo": 9.99
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb7"
+  },
+  "idVenda": 18,
+  "data_venda": "2021-07-04",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 3,
+    "nome": "Ana Rosa"
+  },
+  "custo": 9.58
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb8"
+  },
+  "idVenda": 19,
+  "data_venda": "2021-01-04",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 19,
+    "nome": "Ana Marques"
+  },
+  "custo": 4.79
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb9"
+  },
+  "idVenda": 20,
+  "data_venda": "2021-07-04",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Aerius"
+    }
+  },
+  "Cliente": {
+    "idCliente": 3,
+    "nome": "Ana Rosa"
+  },
+  "custo": 3.52
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eb9"
+  },
+  "idVenda": 20,
+  "data_venda": "2021-07-04",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 3,
+    "nome": "Ana Rosa"
+  },
+  "custo": 5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eba"
+  },
+  "idVenda": 21,
+  "data_venda": "2021-07-04",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Aerius"
+    }
+  },
+  "Cliente": {
+    "idCliente": 25,
+    "nome": "José Filipe"
+  },
+  "custo": 3.52
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ebb"
+  },
+  "idVenda": 22,
+  "data_venda": "2021-06-05",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Xanax"
+    }
+  },
+  "Cliente": {
+    "idCliente": 20,
+    "nome": "Fátima Antunes"
+  },
+  "custo": 3.99
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ebc"
+  },
+  "idVenda": 23,
+  "data_venda": "2021-08-11",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Xanax"
+    }
+  },
+  "Cliente": {
+    "idCliente": 2,
+    "nome": "José Sócrates"
+  },
+  "custo": 3.21
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ebc"
+  },
+  "idVenda": 23,
+  "data_venda": "2021-08-11",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Actifed"
+    }
+  },
+  "Cliente": {
+    "idCliente": 2,
+    "nome": "José Sócrates"
+  },
+  "custo": 4.46
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ebd"
+  },
+  "idVenda": 24,
+  "data_venda": "2021-07-12",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Humira"
+    }
+  },
+  "Cliente": {
+    "idCliente": 12,
+    "nome": "Ricardo Salgado"
+  },
+  "custo": 30.04
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ebe"
+  },
+  "idVenda": 25,
+  "data_venda": "2021-02-11",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Eliquis"
+    }
+  },
+  "Cliente": {
+    "idCliente": 2,
+    "nome": "José Sócrates"
+  },
+  "custo": 49.18
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ebf"
+  },
+  "idVenda": 26,
+  "data_venda": "2021-02-13",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Revlimid"
+    }
+  },
+  "Cliente": {
+    "idCliente": 1,
+    "nome": "João António"
+  },
+  "custo": 72.42
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec0"
+  },
+  "idVenda": 27,
+  "data_venda": "2021-11-12",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 10,
+    "nome": "Catarina Quintas"
+  },
+  "custo": 7.5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec1"
+  },
+  "idVenda": 28,
+  "data_venda": "2021-01-21",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 10,
+    "nome": "Catarina Quintas"
+  },
+  "custo": 7.5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec2"
+  },
+  "idVenda": 29,
+  "data_venda": "2021-12-11",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Eutirox"
+    }
+  },
+  "Cliente": {
+    "idCliente": 24,
+    "nome": "Filipe Antunes"
+  },
+  "custo": 9.99
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec2"
+  },
+  "idVenda": 29,
+  "data_venda": "2021-12-11",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Eliquis"
+    }
+  },
+  "Cliente": {
+    "idCliente": 24,
+    "nome": "Filipe Antunes"
+  },
+  "custo": 73.77
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec3"
+  },
+  "idVenda": 30,
+  "data_venda": "2021-03-30",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Eutirox"
+    }
+  },
+  "Cliente": {
+    "idCliente": 24,
+    "nome": "Filipe Antunes"
+  },
+  "custo": 3.33
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec4"
+  },
+  "idVenda": 31,
+  "data_venda": "2021-01-01",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 21,
+    "nome": "Felício Miguel"
+  },
+  "custo": 5.46
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec5"
+  },
+  "idVenda": 32,
+  "data_venda": "2021-05-11",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Tropicil Top"
+    }
+  },
+  "Cliente": {
+    "idCliente": 17,
+    "nome": "Pedro Silva"
+  },
+  "custo": 5.83
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec6"
+  },
+  "idVenda": 33,
+  "data_venda": "2021-11-11",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Niquitin Menta"
+    }
+  },
+  "Cliente": {
+    "idCliente": 12,
+    "nome": "Ricardo Salgado"
+  },
+  "custo": 4.87
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec6"
+  },
+  "idVenda": 33,
+  "data_venda": "2021-11-11",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 12,
+    "nome": "Ricardo Salgado"
+  },
+  "custo": 16.38
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec7"
+  },
+  "idVenda": 34,
+  "data_venda": "2021-05-11",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 17,
+    "nome": "Pedro Silva"
+  },
+  "custo": 4.79
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec8"
+  },
+  "idVenda": 35,
+  "data_venda": "2021-04-12",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 17,
+    "nome": "Pedro Silva"
+  },
+  "custo": 9.58
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ec9"
+  },
+  "idVenda": 36,
+  "data_venda": "2021-12-31",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Zonisamida Mylan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 14,
+    "nome": "Manuel Brandão"
+  },
+  "custo": 5.7
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4eca"
+  },
+  "idVenda": 37,
+  "data_venda": "2021-05-11",
+  "Componentes": {
+    "quantidade": 1,
+    "Medicamentos": {
+      "nome": "Strepsils"
+    }
+  },
+  "Cliente": {
+    "idCliente": 2,
+    "nome": "José Sócrates"
+  },
+  "custo": 4.53
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ecb"
+  },
+  "idVenda": 38,
+  "data_venda": "2021-02-27",
+  "Componentes": {
+    "quantidade": 2,
+    "Medicamentos": {
+      "nome": "Zovirax"
+    }
+  },
+  "Cliente": {
+    "idCliente": 20,
+    "nome": "Fátima Antunes"
+  },
+  "custo": 34.04
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ecb"
+  },
+  "idVenda": 38,
+  "data_venda": "2021-02-27",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Eutirox"
+    }
+  },
+  "Cliente": {
+    "idCliente": 20,
+    "nome": "Fátima Antunes"
+  },
+  "custo": 9.99
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ecc"
+  },
+  "idVenda": 39,
+  "data_venda": "2021-05-11",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Brufen"
+    }
+  },
+  "Cliente": {
+    "idCliente": 1,
+    "nome": "João António"
+  },
+  "custo": 10.5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ecd"
+  },
+  "idVenda": 40,
+  "data_venda": "2021-01-13",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Ben-U-Ron"
+    }
+  },
+  "Cliente": {
+    "idCliente": 17,
+    "nome": "Pedro Silva"
+  },
+  "custo": 7.5
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ecd"
+  },
+  "idVenda": 40,
+  "data_venda": "2021-01-13",
+  "Componentes": {
+    "quantidade": 3,
+    "Medicamentos": {
+      "nome": "Advantan"
+    }
+  },
+  "Cliente": {
+    "idCliente": 17,
+    "nome": "Pedro Silva"
+  },
+  "custo": 15.48
+},{
+  "_id": {
+    "$oid": "61eaca4bfa2b3822628b4ece"
+  },
+  "idVenda": 41,
+  "data_venda": "2021-12-02",
+  "Componentes": {
+    "quantidade": 10,
+    "Medicamentos": {
+      "nome": "Alprazolam Labesfal"
+    }
+  },
+  "Cliente": {
+    "idCliente": 12,
+    "nome": "Ricardo Salgado"
+  },
+  "custo": 19
+}]

@@ -1,0 +1,62 @@
+Cliente.idCliente,Cliente.nome,Componentes.Medicamentos.nome,Componentes.quantidade,custo,data_venda,idVenda
+1,João António,Brufen,1,3.5,2021-11-05,1
+1,João António,Ben-U-Ron,2,5,2021-11-05,1
+1,João António,Alprazolam Labesfal,1,1.9,2021-11-05,1
+21,Felício Miguel,Ben-U-Ron,2,5,2021-11-05,2
+21,Felício Miguel,Xanax,2,7.98,2021-11-05,2
+15,Manuel Marques,Alprazolam Labesfal,2,3.8,2021-11-05,3
+15,Manuel Marques,Zonisamida Mylan,1,5.46,2021-11-05,3
+15,Manuel Marques,Eutirox,3,9.99,2021-11-05,3
+15,Manuel Marques,AAS,2,5.98,2021-11-05,3
+2,José Sócrates,Eutirox,2,6.66,2021-10-20,4
+20,Fátima Antunes,AAS,3,8.97,2021-10-21,5
+20,Fátima Antunes,Brufen,2,9.58,2021-10-21,5
+11,João Carlos,Voltaren Emulgelex,3,9.99,2021-01-20,6
+11,João Carlos,Ben-U-Ron,2,5,2021-01-20,6
+15,Manuel Marques,Actifed,1,2.23,2021-10-20,7
+15,Manuel Marques,Alprazolam Labesfal,1,1.9,2021-10-20,7
+2,José Sócrates,BAQSIMI,2,201.14,2021-02-01,8
+11,João Carlos,Advantan,3,15.48,2021-12-01,9
+11,João Carlos,Alprazolam Labesfal,1,1.9,2021-12-01,9
+9,Lucélia Martins,Zovirax,1,17.02,2021-10-20,10
+19,Ana Marques,Strepsils,1,4.53,2021-11-03,11
+25,José Filipe,Zonisamida Mylan,1,2.85,2021-03-03,12
+25,José Filipe,Aerius,2,7.04,2021-03-03,12
+25,José Filipe,Eliquis,3,73.77,2021-03-03,12
+15,Manuel Marques,Zonisamida Mylan,2,10.92,2020-11-03,13
+11,João Carlos,Zonisamida Mylan,3,108.72,2021-02-03,14
+21,Felício Miguel,Tropicil Top,1,5.83,2021-11-03,15
+22,Carlos Costa,Niquitin Menta,3,14.61,2021-11-03,16
+22,Carlos Costa,Zonisamida Mylan,3,8.55,2021-11-03,16
+24,Filipe Antunes,Brufen,2,9.58,2021-07-04,17
+24,Filipe Antunes,Eutirox,3,9.99,2021-07-04,17
+3,Ana Rosa,Brufen,2,9.58,2021-07-04,18
+19,Ana Marques,Brufen,1,4.79,2021-01-04,19
+3,Ana Rosa,Aerius,1,3.52,2021-07-04,20
+3,Ana Rosa,Ben-U-Ron,2,5,2021-07-04,20
+25,José Filipe,Aerius,1,3.52,2021-07-04,21
+20,Fátima Antunes,Xanax,1,3.99,2021-06-05,22
+2,José Sócrates,Xanax,1,3.21,2021-08-11,23
+2,José Sócrates,Actifed,2,4.46,2021-08-11,23
+12,Ricardo Salgado,Humira,2,30.04,2021-07-12,24
+2,José Sócrates,Eliquis,2,49.18,2021-02-11,25
+1,João António,Revlimid,2,72.42,2021-02-13,26
+10,Catarina Quintas,Ben-U-Ron,3,7.5,2021-11-12,27
+10,Catarina Quintas,Ben-U-Ron,3,7.5,2021-01-21,28
+24,Filipe Antunes,Eutirox,3,9.99,2021-12-11,29
+24,Filipe Antunes,Eliquis,3,73.77,2021-12-11,29
+24,Filipe Antunes,Eutirox,1,3.33,2021-03-30,30
+21,Felício Miguel,Zonisamida Mylan,1,5.46,2021-01-01,31
+17,Pedro Silva,Tropicil Top,1,5.83,2021-05-11,32
+12,Ricardo Salgado,Niquitin Menta,1,4.87,2021-11-11,33
+12,Ricardo Salgado,Zonisamida Mylan,3,16.38,2021-11-11,33
+17,Pedro Silva,Brufen,1,4.79,2021-05-11,34
+17,Pedro Silva,Brufen,2,9.58,2021-04-12,35
+14,Manuel Brandão,Zonisamida Mylan,2,5.7,2021-12-31,36
+2,José Sócrates,Strepsils,1,4.53,2021-05-11,37
+20,Fátima Antunes,Zovirax,2,34.04,2021-02-27,38
+20,Fátima Antunes,Eutirox,3,9.99,2021-02-27,38
+1,João António,Brufen,3,10.5,2021-05-11,39
+17,Pedro Silva,Ben-U-Ron,3,7.5,2021-01-13,40
+17,Pedro Silva,Advantan,3,15.48,2021-01-13,40
+12,Ricardo Salgado,Alprazolam Labesfal,10,19,2021-12-02,41
